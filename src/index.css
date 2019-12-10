@@ -1,9 +1,35 @@
-/*
-start this
-*/
-
 body{
-  background-color: #333;
-  color: #fff;
+  background: url("images/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: 'Roboto', 'Solway', Arial, Helvetica, serif, sans-serif;
+}
+
+.navbar-light .navbar-brand{
+  outline: 0;
+  color: #535b63;
+}
+
+.navbar{
+  background: #535b63;
+}
+
+.nav-link{
+  outline: 0;
+}
+
+.dropdown-item{
+  text-align: center;
+}
+
+.resumeContainer{
+  margin: 0;
+  padding: 20px;
+}
+
+.resumeBlock{
+  text-align: center;
+  padding: 10px;
 }
